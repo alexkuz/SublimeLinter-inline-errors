@@ -81,7 +81,7 @@ class InlineErrors(sublime_plugin.EventListener):
         return phantom_set
 
     def show_phantom(self, view, errors, selected_line):
-        self.settings = sublime.load_settings('SublimeLinter-inline-errors.sublime-settings')
+        self.settings = sublime.load_settings('SublimeLinterInlineErrors.sublime-settings')
 
         templates = {
             'inline': self.get_template('inline_theme'),
