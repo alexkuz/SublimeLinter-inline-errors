@@ -19,7 +19,7 @@
                 "caption": "Settings",
                 "command": "edit_settings",
                 "args": {
-                  "base_file": "${packages}/SublimeLinter-inline-errors/SublimeLinter-inline-errors.sublime-settings"
+                  "base_file": "${packages}/SublimeLinter-inline-errors/SublimeLinterInlineErrors.sublime-settings"
                 }
               }
             ]
