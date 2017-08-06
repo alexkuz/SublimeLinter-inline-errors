@@ -1,0 +1,20 @@
+<style>
+a {
+  display: ${link_display};
+  word-wrap:break-word;
+  text-decoration: none;
+  font-size: ${font_size};
+  ${error_color}
+  ${error_background_color}
+}
+.errors {
+  display: ${link_display};
+}
+.margin {
+  color: #${offset_color};
+  font-size: 1rem;
+}
+</style>
+<div>
+  ${left_margin}<div class="errors">${message}</div>
+</div>

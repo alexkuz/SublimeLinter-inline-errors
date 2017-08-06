@@ -1,0 +1,18 @@
+{
+  "fontsize": "0.9rem",
+  "inline_text_on_selected_line": "none",
+  "min_width": 80,
+  "max_block_width": 80,
+  "min_gap": 5,
+  "inline_theme": "Packages/SublimeLinter-inline-errors/themes/inline.html",
+  "below_theme": "Packages/SublimeLinter-inline-errors/themes/below.html",
+  "show_inline_text": true,
+  "warning_symbol": "⚠️",
+  "offset_symbol": "·",
+  "offset_color": "553333",
+  "inline_error_color": "DD6666",
+  "inline_error_background_color": "",
+  "below_error_color": "FFFFFF",
+  "below_error_background_color": "993333",
+  "inline_max_words": 5
+}

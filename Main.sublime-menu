@@ -1,0 +1,31 @@
+[
+  {
+    "caption": "Preferences",
+    "id": "preferences",
+    "mnemonic": "n",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "mnemonic": "P",
+        "children":
+        [
+          {
+            "caption": "SublimeLinter - Inline Errors",
+            "children":
+            [
+              {
+                "caption": "Settings",
+                "command": "edit_settings",
+                "args": {
+                  "base_file": "${packages}/SublimeLinter-inline-errors/SublimeLinter-inline-errors.sublime-settings"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

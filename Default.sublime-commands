@@ -1,0 +1,9 @@
+[
+    {
+        "caption": "Preferences: SublimeLinter Settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/SublimeLinter-inline-errors/SublimeLinter-inline-errors.sublime-settings"
+        }
+    }
+]

@@ -1,0 +1,21 @@
+<style>
+a {
+  display: ${link_display};
+  word-wrap:break-word;
+  ${error_color}
+  text-decoration: none;
+  font-size: ${font_size};
+}
+.errors {
+  padding: 3px 5px;
+  ${error_background_color}
+  display: ${link_display};
+}
+.pad {
+  display: block;
+  margin-left: 20px;
+}
+</style>
+<div>
+  <div class="errors">${message}</div>
+</div>
