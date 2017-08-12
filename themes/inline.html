@@ -1,20 +1,22 @@
 <style>
 a {
-  display: ${link_display};
+  display: inline;
   word-wrap:break-word;
   text-decoration: none;
   font-size: ${font_size};
   ${error_color}
-  ${error_background_color}
 }
 .errors {
-  display: ${link_display};
+  display: inline;
+  ${error_background_color}
 }
-.margin {
+.offset {
+  display: inline;
   color: #${offset_color};
+  text-decoration: none;
   font-size: 1rem;
 }
 </style>
 <div>
-  ${left_margin}<div class="errors">${message}</div>
+  ${left_offset}<div class="errors">${message}</div>
 </div>

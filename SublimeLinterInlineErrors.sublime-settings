@@ -1,7 +1,7 @@
 {
-  "fontsize": "0.9rem",
-  "inline_text_on_selected_line": "none",
-  "min_width": 80,
+  "font_size": "0.9rem",
+  "hint_on_selected_line": "none",
+  "min_offset": 100,
   "max_block_width": 80,
   "min_gap": 5,
   "inline_theme": "Packages/SublimeLinter-inline-errors/themes/inline.html",
@@ -14,5 +14,6 @@
   "inline_error_background_color": "",
   "below_error_color": "FFFFFF",
   "below_error_background_color": "993333",
-  "inline_max_words": 5
+  "inline_max_words": 5,
+  "debug": false
 }
