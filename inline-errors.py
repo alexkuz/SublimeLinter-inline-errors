@@ -135,10 +135,10 @@ class InlineErrors(sublime_plugin.ViewEventListener):
         warning_symbol = s.get('warning_symbol')
         offset_symbol = s.get('offset_symbol')
         offset_color = s.get('offset_color')
-        inline_error_color = s.get('inline_error_color')
-        inline_error_background_color = s.get('inline_error_background_color')
-        below_error_color = s.get('below_error_color')
-        below_error_background_color = s.get('below_error_background_color')
+        inline_hint_color = s.get('inline_hint_color')
+        inline_hint_background_color = s.get('inline_hint_background_color')
+        below_hint_color = s.get('below_hint_color')
+        below_hint_background_color = s.get('below_hint_background_color')
         inline_max_words = s.get('inline_max_words')
         font_size = s.get('font_size')
 
@@ -194,11 +194,11 @@ class InlineErrors(sublime_plugin.ViewEventListener):
             message='<a href="%s">%s</a>' % (line, warning_symbol) if not has_inline_text else inline_message,
             font_size=font_size,
             offset_color=offset_color,
-            error_background_color=(
-                'background-color: #%s;' % inline_error_background_color
-                if inline_error_background_color else ''
+            hint_background_color=(
+                'background-color: #%s;' % inline_hint_background_color
+                if inline_hint_background_color else ''
             ),
-            error_color='color: #%s;' % inline_error_color if inline_error_color else ''
+            hint_color='color: #%s;' % inline_hint_color if inline_hint_color else ''
         )
 
         below_tooltip_content = templates['below'].substitute(
@@ -206,11 +206,11 @@ class InlineErrors(sublime_plugin.ViewEventListener):
             left_offset='',
             message=below_message,
             font_size=font_size,
-            error_background_color=(
-                'background-color: #%s;' % below_error_background_color
-                if below_error_background_color else ''
+            hint_background_color=(
+                'background-color: #%s;' % below_hint_background_color
+                if below_hint_background_color else ''
             ),
-            error_color='color: #%s;' % below_error_color if below_error_color else ''
+            hint_color='color: #%s;' % below_hint_color if below_hint_color else ''
         )
 
         inline_phantom = sublime.Phantom(

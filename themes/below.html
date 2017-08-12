@@ -2,13 +2,13 @@
 a {
   display: block;
   word-wrap:break-word;
-  ${error_color}
+  ${hint_color}
   text-decoration: none;
   font-size: ${font_size};
 }
-.errors {
+.hints {
   padding: 3px 5px;
-  ${error_background_color}
+  ${hint_background_color}
   display: block;
 }
 .pad {
@@ -17,5 +17,5 @@ a {
 }
 </style>
 <div>
-  <div class="errors">${message}</div>
+  <div class="hints">${message}</div>
 </div>

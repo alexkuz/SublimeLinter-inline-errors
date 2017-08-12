@@ -4,11 +4,11 @@ a {
   word-wrap:break-word;
   text-decoration: none;
   font-size: ${font_size};
-  ${error_color}
+  ${hint_color}
 }
-.errors {
+.hints {
   display: inline;
-  ${error_background_color}
+  ${hint_background_color}
 }
 .offset {
   display: inline;
@@ -18,5 +18,5 @@ a {
 }
 </style>
 <div>
-  ${left_offset}<div class="errors">${message}</div>
+  ${left_offset}<div class="hints">${message}</div>
 </div>
