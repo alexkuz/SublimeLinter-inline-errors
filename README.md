@@ -91,3 +91,7 @@ Or this:
   "debug": false
 }
 ```
+
+# Known issues
+- By default, inline hint is hidden for a current line, since Phantom window can mess up with your code while you editing it. If you feel lucky, you can always show inline hint by setting `hint_on_selected_line: "inline"`
+- If you click between code line and the hint, nothing happens (it should put cursor at the end of a line). It's a bit annoying. Unfortunately, there's no way to make phantom transparent for pointer events (so the click would be handled by the editor), making a hidden link there to handle the click manually also doesn't work well.
