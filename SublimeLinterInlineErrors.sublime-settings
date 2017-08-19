@@ -34,7 +34,7 @@
   "error_symbol": "⛔",
 
   // Symbol used in the offset
-  "offset_symbol": "·",
+  "offset_symbol": "&nbsp;",
 
   // Offset symbol color (set your background color here to hide the offset symbols)
   "offset_color": "553333",
