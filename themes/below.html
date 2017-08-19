@@ -2,14 +2,23 @@
 a {
   display: block;
   word-wrap:break-word;
-  ${hint_color}
   text-decoration: none;
   font-size: ${font_size};
 }
 .hints {
-  padding: 3px 5px;
-  ${hint_background_color}
   display: block;
+}
+.below_error {
+  display: block;
+  padding: 3px 5px;
+  ${error_color}
+  ${error_background_color}  
+}
+.below_warning {
+  display: block;
+  padding: 3px 5px;
+  ${warning_color}
+  ${warning_background_color}  
 }
 .pad {
   display: block;

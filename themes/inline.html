@@ -4,11 +4,19 @@ a {
   word-wrap:break-word;
   text-decoration: none;
   font-size: ${font_size};
-  ${hint_color}
 }
 .hints {
   display: inline;
-  ${hint_background_color}
+}
+.inline_error {
+  display: inline;
+  ${error_background_color}
+  ${error_color}  
+}
+.inline_warning {
+  display: inline;
+  ${warning_background_color}
+  ${warning_color}  
 }
 .offset {
   display: inline;
