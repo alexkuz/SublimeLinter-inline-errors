@@ -19,7 +19,8 @@
                 "caption": "Settings",
                 "command": "edit_settings",
                 "args": {
-                  "base_file": "${packages}/SublimeLinter-inline-errors/SublimeLinterInlineErrors.sublime-settings"
+                  "base_file": "${packages}/SublimeLinter Inline Errors/SublimeLinterInlineErrors.sublime-settings",
+                  "default": "{\n  \n}\n"
                 }
               }
             ]

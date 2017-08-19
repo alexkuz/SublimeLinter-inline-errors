@@ -22,10 +22,10 @@
   "min_gap": 5,
 
   // Theme file for inline hints
-  "inline_theme": "Packages/SublimeLinter-inline-errors/themes/inline.html",
+  "inline_theme": "Packages/SublimeLinter Inline Errors/themes/inline.html",
 
   // Theme file for below-the-line hints
-  "below_theme": "Packages/SublimeLinter-inline-errors/themes/below.html",
+  "below_theme": "Packages/SublimeLinter Inline Errors/themes/below.html",
 
   // Symbol used as a warning hint prefix
   "warning_symbol": "⚠️",

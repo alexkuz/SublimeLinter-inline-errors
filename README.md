@@ -13,10 +13,8 @@ Or this:
 
 ## Installation
 
-- Open `Package Control: Add Repository`
-- Insert repo URL: `https://github.com/alexkuz/SublimeLinter-inline-errors`
 - Open `Package Control: Install Package`
-- Find and install `SublimeLinter-inline-errors` package
+- Find and install `SublimeLinter Inline Errors` package
 
 ## Settings
 
@@ -45,31 +43,46 @@ Or this:
   "min_gap": 5,
 
   // Theme file for inline hints
-  "inline_theme": "Packages/SublimeLinter-inline-errors/themes/inline.html",
+  "inline_theme": "Packages/SublimeLinter Inline Errors/themes/inline.html",
 
   // Theme file for below-the-line hints
-  "below_theme": "Packages/SublimeLinter-inline-errors/themes/below.html",
+  "below_theme": "Packages/SublimeLinter Inline Errors/themes/below.html",
 
-  // Symbol used as a hint prefix
+  // Symbol used as a warning hint prefix
   "warning_symbol": "⚠️",
 
+  // Symbol used as an error hint prefix
+  "error_symbol": "⛔",
+
   // Symbol used in the offset
-  "offset_symbol": "·",
+  "offset_symbol": "&nbsp;",
 
   // Offset symbol color (set your background color here to hide the offset symbols)
   "offset_color": "553333",
 
-  // Inline hint text color
-  "inline_hint_color": "DD6666",
+  // Inline warning text color
+  "inline_warning_color": "DDCC66",
 
-  // Inline hint background color
-  "inline_hint_background_color": "",
+  // Inline warning background color
+  "inline_warning_background_color": "",
 
-  // Below-the-line hint text color
-  "below_hint_color": "FFFFFF",
+  // Inline error text color
+  "inline_error_color": "DD6666",
 
-  // Below-the-line hint background color
-  "below_hint_background_color": "993333",
+  // Inline error background color
+  "inline_error_background_color": "",
+
+  // Below-the-line warning text color
+  "below_warning_color": "FFFFFF",
+
+  // Below-the-line warning background color
+  "below_warning_background_color": "BBAA33",
+
+  // Below-the-line error text color
+  "below_error_color": "FFFFFF",
+
+  // Below-the-line error background color
+  "below_error_background_color": "993333",
 
   // Maximum number of words in inline hint
   "inline_max_words": 30,
