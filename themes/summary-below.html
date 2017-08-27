@@ -9,16 +9,16 @@ a {
   text-decoration: none;
   font-size: ${font_size};
 }
-.below_hints {
+.summary_hints {
   display: block;
 }
-.below_error {
+.summary_error {
   display: block;
   padding: 3px 5px;
   ${error_color}
   ${error_background_color}
 }
-.below_warning {
+.summary_warning {
   display: block;
   padding: 3px 5px;
   ${warning_color}
@@ -30,5 +30,5 @@ a {
 }
 </style>
 <div>
-  <div class="below_hints">${message}</div>
+  <div class="summary_hints">${message}</div>
 </div>

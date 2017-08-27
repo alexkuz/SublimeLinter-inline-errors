@@ -3,24 +3,18 @@ html {
   padding: 0;
   background-color: transparent;
 }
+.summary_counters {
+  display: inline;
+  padding: 3px 5px;
+  ${counters_color}
+  ${counters_background_color}
+}
 a {
   display: inline;
   word-wrap:break-word;
   text-decoration: none;
   font-size: ${font_size};
-}
-.inline_hints {
-  display: inline;
-}
-.inline_error {
-  display: inline;
-  ${error_background_color}
-  ${error_color}
-}
-.inline_warning {
-  display: inline;
-  ${warning_background_color}
-  ${warning_color}
+  ${counters_color}
 }
 .offset {
   display: inline;
@@ -30,5 +24,5 @@ a {
 }
 </style>
 <div>
-  ${left_offset}<div class="inline_hints">${message}</div>
+  ${left_offset}<div class="summary_counters">${counters}</div>
 </div>
