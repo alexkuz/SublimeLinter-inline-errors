@@ -20,6 +20,15 @@ Or this:
 
 ```js
 {
+  // Show warning hints
+  "show_warnings": true,
+
+  // Show error hints
+  "show_errors": true,
+
+  // Show summary on top of the view
+  "show_summary": true,
+
   // Hint font size
   "font_size": "0.9rem",
 
@@ -47,6 +56,12 @@ Or this:
 
   // Theme file for below-the-line hints
   "below_theme": "Packages/SublimeLinter Inline Errors/themes/below.html",
+
+  // Theme file for summary hints
+  "summary_inline_theme": "Packages/SublimeLinter Inline Errors/themes/summary-inline.html",
+
+  // Theme file for summary hints
+  "summary_below_theme": "Packages/SublimeLinter Inline Errors/themes/summary-below.html",
 
   // Symbol used as a warning hint prefix
   "warning_symbol": "⚠️",
@@ -83,6 +98,12 @@ Or this:
 
   // Below-the-line error background color
   "below_error_background_color": "993333",
+
+  // Summary text color
+  "summary_color": "FFFFFF",
+
+  // Summary background color
+  "summary_background_color": "993333",
 
   // Maximum number of words in inline hint
   "inline_max_words": 30,
