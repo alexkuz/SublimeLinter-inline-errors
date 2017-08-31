@@ -43,9 +43,11 @@
   "summary_below_theme": "Packages/SublimeLinter Inline Errors/themes/summary-below.html",
 
   // Symbol used as a warning hint prefix
+  // Alternative warning symbols: ❗, 🗲
   "warning_symbol": "⚠️",
 
   // Symbol used as an error hint prefix
+  // Alternative errors symbols: ✖, ✘, ⮾, 🚫, 
   "error_symbol": "⛔",
 
   // Symbol used in the offset
