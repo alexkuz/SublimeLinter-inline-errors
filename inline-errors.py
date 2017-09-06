@@ -364,7 +364,6 @@ class InlineErrors(sublime_plugin.ViewEventListener):
         s = self.settings()
         line_width = region.b - region.a
         left_offset = max(s.min_offset - line_width, s.min_gap)
-        print(line_width, left_offset)
 
         offset_overflow = line_width + left_offset - self.get_viewport_width() + 4
         if fit_text is not None:
