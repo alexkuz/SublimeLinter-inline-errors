@@ -1,3 +1,5 @@
+<table><tr><th>This is an experimental package and apparently it does not work very well. Don't expect much of it. <br/><br/>If you still need decent error displaying (I bet you do), consider using <a href="https://github.com/SublimeLinter/SublimeLinter">SublimeLinter v4</a></th></tr></table>
+
 # SublimeLinter-inline-errors
 Shows linting errors inline with Phantom API
 
